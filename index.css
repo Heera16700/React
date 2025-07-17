@@ -1,21 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ingrid+Darling&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  background-color:#cfe598;
+  margin: 0;
+  padding: 0;
+}
+
+
 .Navbar{
-    margin:5px;
+    margin:5px auto;
     background-color:black ;
     color:white;
     border-radius:  150px;
     width: 1000px;
-    height: 49px;
-    margin-top: 10px;
+    height: 60px;
+    margin-top: 5px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .Navbar a{
     color:white;
     text-decoration: none;
-    margin:20px;
+    
     font-family:"inria Serif";
     font-size: 25px;
     
     
 
 }
+.icon{
+    margin-right: 4px;
+}
+.brand .green{
+    color: #00ff00;
+    font-family: "Ingrid Darling";
+}
+.white{
+    font-family: "Indie Flower";
+}
+
+.Clothing{
+ width: 100px;
+ height:100px;
+ background-color: white;
+ align-items: center;
+ display: block;
+ border-radius: 20px;
+ margin:0 0 0 20px
+}
+.Img_1{
+    width: 30%;
+    height: auto;
+    border-radius: 200px;
+    margin:10px 10px 0px 10px;
+}   
