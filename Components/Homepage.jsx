@@ -9,17 +9,20 @@ const Homepage = () => {
       {/* <Slider/> */}
       <div className="Content">
         <h2>BEST PRODUCTS</h2>
-        <div className="Features">
+        <div></div>
           <div className="Clothing">
             <img src={image1} className="Img_1" alt="" />
             <img src={image1} className="Img_1" alt="" />
-            <div className="Clothing2">
+            
               <img src={image1} className="Img_1" alt="" />
               <img src={image1} className="Img_1" alt="" />
-            </div>
+           
            
           </div>
-        </div>
+          
+
+
+      
       </div>
     </div>
   );

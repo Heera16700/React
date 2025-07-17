@@ -45,17 +45,19 @@ body {
 }
 
 .Clothing{
- width: 100px;
- height:100px;
- background-color: white;
- align-items: center;
- display: block;
- border-radius: 20px;
- margin:0 0 0 20px
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: fit-content;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+     margin: 0px 0px 0px 30px;
 }
 .Img_1{
-    width: 30%;
-    height: auto;
+    width: 120px;
+    height: 120px;
     border-radius: 200px;
-    margin:10px 10px 0px 10px;
+    object-fit: cover;
+   
 }   
