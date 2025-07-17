@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.Navbar{
+    margin:5px;
+    background-color:black ;
+    color:white;
+    border-radius:  150px;
+    width: 1000px;
+    height: 49px;
+    margin-top: 10px;
+    text-align: center;
+}
+.Navbar a{
+    color:white;
+    text-decoration: none;
+    margin:20px;
+    font-family:"inria Serif";
+    font-size: 25px;
+    
+    
+
+}
